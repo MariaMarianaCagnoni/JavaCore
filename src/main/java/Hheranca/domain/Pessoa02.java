@@ -8,9 +8,19 @@ public class Pessoa02 {
     protected String nome;
     protected String cpf;
 
+
+    static {
+        System.out.println("dentro do bloco de inicialização estatico de pessoa");
+    }
+
+    {
+        System.out.println("dentro do bloco de inicialização de pessoa");
+    }
+
     public Pessoa02(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
+        System.out.println("Dentro do construtor Pessoa02");
     }
 
 

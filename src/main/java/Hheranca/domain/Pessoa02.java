@@ -8,6 +8,12 @@ public class Pessoa02 {
     protected String nome;
     protected String cpf;
 
+    @Override
+    public String toString() {
+        return "Pessoa02{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
 
     static {
         System.out.println("dentro do bloco de inicialização estatico de pessoa");

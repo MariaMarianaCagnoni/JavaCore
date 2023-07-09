@@ -11,7 +11,6 @@ public class Funcionario02 extends Pessoa02 {
         super(nome, cpf);
     }
 
-
     @Override
     public void imprime() {
         super.imprime();
@@ -19,11 +18,10 @@ public class Funcionario02 extends Pessoa02 {
     }
 
 
+    public void relatorioPagamento() {
 
-        public void relatorioPagamento () {
-
-            System.out.println(this.cpf);
-            System.out.println(this.nome);
-        }
+        System.out.println(this.cpf);
+        System.out.println(this.nome);
     }
 }
+

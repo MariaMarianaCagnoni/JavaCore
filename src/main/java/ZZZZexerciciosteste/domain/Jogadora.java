@@ -1,6 +1,4 @@
-package Zexerciciosteste.domain;
-
-import java.math.BigDecimal;
+package ZZZZexerciciosteste.domain;
 
 /**
  * @author mariana

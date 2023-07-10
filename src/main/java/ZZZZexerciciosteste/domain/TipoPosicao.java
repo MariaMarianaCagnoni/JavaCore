@@ -1,4 +1,4 @@
-package Zexerciciosteste.domain;
+package ZZZZexerciciosteste.domain;
 
 /**
  * @author mariana

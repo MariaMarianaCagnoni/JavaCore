@@ -21,6 +21,7 @@ public class FuncionarioTest01 {
 
         Desenvolvedor dev = new Desenvolvedor("chichi",6000,"java");
         System.out.println(dev);
+
     }
 
 }

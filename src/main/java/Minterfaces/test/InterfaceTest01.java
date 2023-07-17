@@ -16,6 +16,7 @@ public class InterfaceTest01 {
         dataLoader.load();
         dataLoader.checkPermission('s');
         FileLoader fileLoader = new FileLoader();
+        System.out.println(fileLoader);
 
 
 

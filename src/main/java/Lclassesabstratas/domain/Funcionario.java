@@ -45,7 +45,7 @@ public abstract class Funcionario extends Pessoa{
                 ", salario=" + salario +
                 '}';
     }
-    //metodos abstratos ssó podeme xistir dentro de classes abstratas
+    //metodos abstratos ssó podem existir dentro de classes abstratas
     //porem em classes abstradas vc pode ter metodos concretos e abstratos
 
 }

@@ -6,6 +6,8 @@ package Npolimorfismo.domain;
  */
 public class Tomate extends Produto {
 
+    private final String DATA_VALIDADE = "12/9/23";
+
     public static final double IMPOSTO_POR_CENTO = 0.90;
 
 

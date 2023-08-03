@@ -7,12 +7,12 @@ import java.io.IOException;
  * @author mariana
  * @Project: javacore
  */
-public class Exceptiontest01 {
-    public static void main(String[] args) {
+public class Exceptiontest02 {
+    public static void main(String[] args) throws IOException {
         criarNovoArquivo();
 
     }
-    private static void criarNovoArquivo(){
+    private static void criarNovoArquivo() throws IOException {
         File file = new File("");
         try{
             boolean isCriado = file.createNewFile();
@@ -20,6 +20,7 @@ public class Exceptiontest01 {
         }catch(IOException e ){
         //não deixar esse bloco em branco
             e.printStackTrace();
+            throw e;
 
         }
     }

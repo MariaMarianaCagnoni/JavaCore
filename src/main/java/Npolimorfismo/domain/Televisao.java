@@ -6,6 +6,16 @@ package Npolimorfismo.domain;
  */
 public class Televisao extends Produto{
 
+    private int polegadas;
+
+    public int getPolegadas() {
+        return polegadas;
+    }
+
+    public void setPolegadas(int polegadas) {
+        this.polegadas = polegadas;
+    }
+
     public Televisao(String nome, double valor) {
         super(nome, valor);
     }

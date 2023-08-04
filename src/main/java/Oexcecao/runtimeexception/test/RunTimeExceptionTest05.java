@@ -1,6 +1,5 @@
 package Oexcecao.runtimeexception.test;
 
-import java.io.FileNotFoundException;
 import java.sql.SQLException;
 
 /**
@@ -17,7 +16,8 @@ public class RunTimeExceptionTest05 {
             System.out.println("Dentro do ArrayIndexOutOfBoundsException | ArithmeticException | IllegalArgumentException");
         } catch (RuntimeException e) {
             System.out.println("Dentro do RuntimeException");
-
+            //nao podem ter mais de um catch com a mesma exceção
+            //nao podem ter um catch com a exceção filha e a exceção pai
         }
 
         try {
@@ -27,6 +27,7 @@ public class RunTimeExceptionTest05 {
         }
 
     }
+
     private static void talvezLanceException() throws SQLException, RuntimeException {
 
     }

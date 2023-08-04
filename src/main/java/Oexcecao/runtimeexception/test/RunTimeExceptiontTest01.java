@@ -4,7 +4,7 @@ package Oexcecao.runtimeexception.test;
  * @author mariana
  * @Project: javacore
  */
-public class RunTimeExceptiontTes01 {
+public class RunTimeExceptiontTest01 {
 
     public static void main(String[] args) {
         //checked ou unchecked

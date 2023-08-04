@@ -4,7 +4,7 @@ package Oexcecao.runtimeexception.test;
  * @author mariana
  * @Project: javacore
  */
-public class RunTimeExceptionTes02 {
+public class RunTimeExceptionTest02 {
 
     public static void main(String[] args) {
 

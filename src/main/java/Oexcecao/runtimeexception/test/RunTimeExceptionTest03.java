@@ -4,7 +4,7 @@ package Oexcecao.runtimeexception.test;
  * @author mariana
  * @Project: javacore
  */
-public class RunTimeException03 {
+public class RunTimeExceptionTest03 {
     public static void main(String[] args) {
         abrirConexao();
     }

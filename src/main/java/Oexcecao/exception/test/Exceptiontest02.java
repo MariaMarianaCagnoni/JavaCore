@@ -21,7 +21,10 @@ public class Exceptiontest02 {
         //não deixar esse bloco em branco
             e.printStackTrace();
             throw e;
+            //relança a exceção
 
         }
     }
+
+
 }

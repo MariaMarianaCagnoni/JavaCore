@@ -9,7 +9,7 @@ public class WrapperTest01 {
 
         short shortp = 1;
         byte bytep = 10;
-        int integerp = 1000;
+        int integerp = 1;
         long longp = 10000L;
         float floatp = 1000F;
         double doublep = 1000D;
@@ -18,7 +18,7 @@ public class WrapperTest01 {
 
         Short shortr = 1;
         Byte byter = 10;
-        Integer integerr = 1000;
+        Integer integerr = 1; //autoboxing
         Long longr = 10000L;
         Float floatr = 1000F;
         Double doubler = 1000D;
@@ -26,5 +26,9 @@ public class WrapperTest01 {
         Character characterr = '@';
 
         //Wrapper classes encapsula o tipo primitivo e transforma em objeto.
+
+        int i = integerr; //unboxing quando faço um casting de um objeto para um tipo primitivo.
+        Integer integer = Integer.parseInt("4"); //converte uma String para um Integer
+        System.out.println(integer);
     }
 }

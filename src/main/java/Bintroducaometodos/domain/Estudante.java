@@ -1,7 +1,5 @@
 package Bintroducaometodos.domain;
 
-import java.security.PublicKey;
-
 /**
  * @author mariana
  * @Project: javacore

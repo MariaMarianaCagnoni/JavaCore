@@ -1,7 +1,5 @@
 package Bintroducaometodos.domain;
 
-import org.jetbrains.annotations.NotNull;
-
 /**
  * @author mariana
  * @Project: javacore

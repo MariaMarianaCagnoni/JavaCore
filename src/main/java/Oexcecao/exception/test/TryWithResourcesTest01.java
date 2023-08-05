@@ -30,7 +30,7 @@ public class TryWithResourcesTest01 {
         }
     }
 
-    private static void lerArquivo2() {
+    private static void readFile() {
         Reader reader = null;
         try {
             reader = new BufferedReader(new FileReader("teste.txt"));

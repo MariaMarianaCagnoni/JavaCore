@@ -12,10 +12,8 @@ public class Test01 {
         lerArquivo3();
     }
     public static void lerArquivo3() {
-
         try (Leitor1 leitor1 = new Leitor1(); Leitor2 leitor2 = new Leitor2()) {
             //como é uma pilha,ele fecha de maneria invertida
-
         } catch (IOException e) {
             e.printStackTrace();
         }

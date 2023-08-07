@@ -1,6 +1,6 @@
 <h2>  projeto que visa os estudos do javacore. </h2>
 
-<p> até o momento</p>
+<p> até o momento: </p>
 
 <ul>
     <li> Introdução a classes</li>
@@ -18,5 +18,6 @@
     <li> Exceções </li>
     <li> Wrapper classes </li>
     <li> Strings </li>
+    <li> Serialização </li>
 
 </ul>

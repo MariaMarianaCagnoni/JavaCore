@@ -10,7 +10,7 @@ public class StringTest01 {
         String nome = "Mariana"; //String constant pool
         String nome2 = "Mariana";
 
-        System.out.println(nome == nome2); //true pois mesmo endereço de memoria
+        System.out.println(nome == nome2); // true pois mesmo endereço de memória
 
         System.out.println(nome.concat(" Ferreira"));
         System.out.println(nome == nome2); //continua dando true por conta da imutablidade.Continua dando "Mariana"
@@ -21,13 +21,7 @@ public class StringTest01 {
         String nome3 = new String("Mariana");
         System.out.println(nome2 == nome3);
         System.out.println(nome2 == nome3.intern()); //comparo com o conteudo da variavel internamente.
-
-
-
-
-
         //   == compara a referencia de memoria(ENDEREÇO)
         //   .equals compara o conteudo da variável.
-
     }
 }

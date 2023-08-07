@@ -10,7 +10,7 @@ import java.util.Calendar;
 public class DateFormatTest01 {
     public static void main(String[] args) {
 
-        Calendar calendar = Calendar.getInstance();
+        Calendar calendar = Calendar.getInstance(); //factory method
         DateFormat[] df = new DateFormat[7];
         df[0] = DateFormat.getInstance();
         df[1] = DateFormat.getDateInstance();

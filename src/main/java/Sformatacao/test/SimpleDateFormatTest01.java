@@ -1,5 +1,6 @@
 package Rdates.test;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -14,5 +15,16 @@ public class SimpleDateFormatTest01 {
         SimpleDateFormat sf = new SimpleDateFormat(pattern);
         //trabalha como uma formatação de datas mais simples que DateFormat
         System.out.println(sf.format(new Date()));
+
+        SimpleDateFormat sf2 = new SimpleDateFormat("'Brasil- dia: 'dd 'de' MMMM 'de ' yyyy");
+        System.out.println(sf2.format(new Date()));
+
+        //parse
+        try{
+            System.out.println(sf2.parse("Brasil- dia: 10 de agosto de  2023"));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
     }
 }

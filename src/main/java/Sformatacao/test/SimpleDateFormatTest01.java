@@ -1,4 +1,4 @@
-package Rdates.test;
+package Sformatacao.test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

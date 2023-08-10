@@ -13,14 +13,14 @@ public class LocaleTes01 {
     public static void main(String[] args) {
         //classe criada para trabalhar internalização
         //possível formatar datas/moedas/números.
-        //ISO 639 alpha-2
+        //ISO 639 alpha-2 e outro
 
         Locale localeItaly = new Locale("it", "IT");
         Locale localeCH = new Locale("it", "CH");
         Locale localeIndia = new Locale("hi", "IN");
         Locale localeJapao = new Locale("ja", "JP");
         Locale localeHolanda = new Locale("nl", "NL");
-        //substituir por Locale.Builder
+        //substituir por Locale.Builder pois passando pelo construtor está depreciado
 
         Calendar calendar = Calendar.getInstance();
         DateFormat df1 = DateFormat.getDateInstance(DateFormat.FULL, localeItaly);

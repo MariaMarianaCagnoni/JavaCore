@@ -33,5 +33,7 @@ public class LocalDateTest01 {
         System.out.println(ld.minusMonths(12)); //subtrai os meses passados
         System.out.println(ld2.isLeapYear());
         System.out.println(ld2.getYear());
+        System.out.println(LocalDate.MAX);
+        System.out.println(LocalDate.MIN);
     }
 }

@@ -20,7 +20,7 @@ public class PatternMatcherTest03 {
         // () = agrupamento
         // | = 'ou'
         // $ = fim da linha
-
+        // ^ = anchor
 
         String textoHexa = "h 567 jh 0x1 0x1652FA";
         String regex4 = "0[xX]([0-9a-fA-F])+(\\s|$)";

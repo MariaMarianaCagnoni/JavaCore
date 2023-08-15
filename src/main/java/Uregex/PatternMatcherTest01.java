@@ -25,7 +25,7 @@ public class PatternMatcherTest01 {
         System.out.println("------------");
 
         while(matcher2.find()){
-            System.out.print(matcher2.start()+ " "); //ele nao conta o mesmo índice duas vezes
+            System.out.print(matcher2.start()+ " "+ matcher2.group()); //ele nao conta o mesmo índice duas vezes
 
         }
     }

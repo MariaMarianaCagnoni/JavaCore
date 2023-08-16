@@ -12,10 +12,9 @@ public class FileReaderTest02 {
         try {
             FileReader fr = new FileReader("outroTeste.txt");
             int i;
-            while((i=fr.read()) != -1){
-                System.out.print((char)i);
+            while ((i = fr.read()) != -1) {
+                System.out.print((char) i);
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }

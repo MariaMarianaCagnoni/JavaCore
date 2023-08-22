@@ -1,7 +1,5 @@
 package Kenum.domain;
 
-import org.jetbrains.annotations.Nullable;
-
 /**
  * @author mariana
  * @Project: javacore

@@ -14,5 +14,7 @@ public class PathTest01 {
         System.out.println(p1.getFileName());
         System.out.println(p1.getParent());
 
+
+
     }
 }

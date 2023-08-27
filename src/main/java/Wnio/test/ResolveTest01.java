@@ -12,6 +12,7 @@ public class ResolveTest01 {
         Path resolve01 = dir.resolve(arquivo);
         System.out.println(resolve01); //resolve junta os paths
 
+
         Path absoluto = Paths.get("/home/mariana");
         Path relativo = Paths.get("dev");
         Path file = Paths.get("file.txt");
@@ -23,5 +24,7 @@ public class ResolveTest01 {
         System.out.println("4 "+ relativo.resolve(absoluto));
         System.out.println("5 "+ relativo.resolve(relativo));
         System.out.println("5 "+ relativo.resolve(file));
+        System.out.println("6 "+ file.resolve(absoluto));
+        System.out.println("7 "+ file.resolve(relativo));
     }
 }

@@ -1,9 +1,7 @@
 package Ycolecoes.test;
 
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class ListTest01 {
     public static void main(String[] args) {
@@ -40,4 +38,6 @@ public class ListTest01 {
         }
         System.out.println("\n---------------------------");
     }
+
+
 }

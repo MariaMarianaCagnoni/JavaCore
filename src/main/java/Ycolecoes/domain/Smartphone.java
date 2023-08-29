@@ -46,4 +46,11 @@ public class Smartphone {
         Smartphone obj1 = (Smartphone) obj;
         return serialNumber != null && serialNumber.equals(obj1.serialNumber);
     }
+
+    @Override
+    public int hashCode() {
+        //native significa que foi escrito em outra linguagem
+
+        return serialNumber == null ? 0 : this.serialNumber.hashCode();
+    }
 }

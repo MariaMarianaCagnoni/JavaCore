@@ -2,6 +2,8 @@ package Ycolecoes.test;
 
 
 import Ycolecoes.domain.Smartphone;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +29,9 @@ public class SmartphoneListTest01 {
         //se não existir retorna -1
 
         Smartphone s4 = new Smartphone("1232423ADHS", "Google Pixel");
-        smartphones.add(0, s4); //esse tipo de lista me permite add um novo elemento em um indice especifico
 
+        smartphones.add(0, s4); //esse tipo de lista me permite add um novo elemento em um indice especifico
     }
+
+
 }

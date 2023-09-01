@@ -1,3 +1,4 @@
+
 package Ycolecoes.domain;
 
 import java.util.Objects;
@@ -7,10 +8,11 @@ public class Manga {
     private String nome;
     private Double preco;
 
+
     public Manga(Long id, String nome, Double preco) {
-        Objects.requireNonNull(id,"id cannot be null"); //não pode ser null,se não lança um nullpointer exception
-        Objects.requireNonNull(nome,"name canot be null");
-        Objects.requireNonNull(preco,"preco cannot be null");
+        Objects.requireNonNull(id, "id cannot be null"); //não pode ser null,se não lança um nullpointer exception
+        Objects.requireNonNull(nome, "name canot be null");
+        Objects.requireNonNull(preco, "preco cannot be null");
         this.id = id;
         this.nome = nome;
         this.preco = preco;
@@ -61,5 +63,7 @@ public class Manga {
     public int hashCode() {
         return Objects.hash(id, nome, preco);
     }
+
+
 }
 

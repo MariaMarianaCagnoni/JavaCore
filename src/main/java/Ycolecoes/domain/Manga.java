@@ -1,9 +1,11 @@
 
 package Ycolecoes.domain;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Objects;
 
-public class Manga {
+public class Manga implements Comparable<Manga>{
     private Long id;
     private String nome;
     private Double preco;
@@ -65,5 +67,17 @@ public class Manga {
     }
 
 
+    @Override
+    public int compareTo(@NotNull Manga outroManga) {
+        //negativo se o this for < outroManga
+        //positivo se o this for >  outroManga
+        //zero se o this for ==  outroManga
+        return this.getId().compareTo(outroManga.getId()); //é possivel implementar por conta do Id ser um Wrapper
+        //caso o campo a ser comparado seja um tipo primitivo:
+        //return Double.valueOf(Preco).compareTo(outroManga.getPreco());
+
+
+
+    }
 }
 

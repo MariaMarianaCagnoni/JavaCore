@@ -3,17 +3,14 @@ package Ycolecoes.domain;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 
-
-
-
-public class Manga implements Comparable<Manga>{
+public class Manga implements Comparable<Manga> {
     private Long id;
     private String nome;
     private Double preco;
+    private int quantidade;
 
 
     public Manga(Long id, String nome, Double preco) {
@@ -23,6 +20,19 @@ public class Manga implements Comparable<Manga>{
         this.id = id;
         this.nome = nome;
         this.preco = preco;
+    }
+
+    public Manga(Long id, String nome, Double preco, int quantidade) {
+        this(id, nome, preco);
+        this.quantidade = quantidade;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
     public Long getId() {
@@ -55,6 +65,7 @@ public class Manga implements Comparable<Manga>{
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", preco=" + preco +
+                ", quantidade=" + quantidade +
                 '}';
     }
 
@@ -80,7 +91,6 @@ public class Manga implements Comparable<Manga>{
         return this.getId().compareTo(outroManga.getId()); //é possivel implementar por conta do Id ser um Wrapper
         //caso o campo a ser comparado seja um tipo primitivo:
         //return Double.valueOf(Preco).compareTo(outroManga.getPreco());
-
 
 
     }

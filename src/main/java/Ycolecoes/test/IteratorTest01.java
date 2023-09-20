@@ -33,12 +33,8 @@ public class IteratorTest01 {
             }
         }
         System.out.println(mangas);
-
-
-        //tambem pode ser feito com prog. funcional !
+        //tambem pode ser feito com prog. funcional
         mangas.removeIf(manga -> manga.getQuantidade() == 0);
     }
-
-
 
 }

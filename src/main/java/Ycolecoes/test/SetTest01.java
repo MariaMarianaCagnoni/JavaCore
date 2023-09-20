@@ -4,6 +4,7 @@ import Ycolecoes.domain.Manga;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.SortedMap;
 
 /**
  * @author mariana
@@ -12,6 +13,8 @@ import java.util.Set;
 public class SetTest01 {
     public static void main(String[] args) {
         Set<Manga> mangas = new HashSet<>();
+        //Set<Manga> mangas = new LinkedHashSet<>();
+
         //set nao permite elementos duplicados dentro da coleção
         //utilizando o HashSet,ele será ordenado pelo hash
         //o set não é indexado
@@ -24,9 +27,7 @@ public class SetTest01 {
         mangas.add(new Manga(45L, "Naruto", 25.00, 10));
         //não insere,pois é duplicado(o equals garante)
 
-        for (Manga manga : mangas) {
 
-            System.out.println(manga);
-        }
+
     }
 }

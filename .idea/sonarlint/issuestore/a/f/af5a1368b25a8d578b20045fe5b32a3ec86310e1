@@ -1,0 +1,34 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Øø¶Ïúÿÿÿÿ
+P
+java:S1854":Remove this useless assignment to local variable "manga5".(¡ÜÒ 
+U
+java:S1854":Remove this useless assignment to local variable "manga4".(ÛÆ¨¹þÿÿÿÿ
+P
+java:S1854":Remove this useless assignment to local variable "manga3".(ãÇøÝ
+P
+java:S1854":Remove this useless assignment to local variable "manga2".(™õ“À
+U
+java:S1854":Remove this useless assignment to local variable "manga1".(Ø„Ä˜ùÿÿÿÿ
+Z
+java:S1854"?Remove this useless assignment to local variable "consumidor2".(Ñáƒ³ùÿÿÿÿ
+Z
+java:S1854"?Remove this useless assignment to local variable "consumidor1".(ƒ°Çûþÿÿÿÿ
+K
+java:S1481"0Remove this unused "consumidor1" local variable.(ƒ°Çûþÿÿÿÿ
+K
+java:S1481"0Remove this unused "consumidor2" local variable.(Ñáƒ³ùÿÿÿÿ
+F
+java:S1481"+Remove this unused "manga1" local variable.(Ø„Ä˜ùÿÿÿÿ
+A
+java:S1481"+Remove this unused "manga2" local variable.(™õ“À
+A
+java:S1481"+Remove this unused "manga3" local variable.(ãÇøÝ
+F
+java:S1481"+Remove this unused "manga4" local variable.(ÛÆ¨¹þÿÿÿÿ
+A
+java:S1481"+Remove this unused "manga5" local variable.(¡ÜÒ 
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ

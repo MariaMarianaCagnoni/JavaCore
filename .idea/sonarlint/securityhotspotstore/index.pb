@@ -11,3 +11,9 @@ f
 6src/main/java/Qstring/test/StringPerformaceTest01.java,8/f/8fbfcacd1cc03e9650afaba1f6823f76ed29f0c5
 c
 3src/main/java/Qstring/test/StringBuilderTest01.java,b/a/babfbe97ea21ea81323f44345e68c4ca72b18389
+c
+3src/main/java/Ycolecoes/test/ConsumidorTeste02.java,a/f/af5a1368b25a8d578b20045fe5b32a3ec86310e1
+W
+'src/main/java/Wnio/test/PathTest02.java,7/1/71b0a363cc369d25a3f9062f4905818b534c27b3
+W
+'src/main/java/Wnio/test/PathTest03.java,8/d/8dda50d134f3b290a668640ba381e39358d89a2c

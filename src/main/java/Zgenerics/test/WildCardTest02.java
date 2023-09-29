@@ -1,6 +1,9 @@
-package Zgenerics;
+package Zgenerics.test;
 
-import java.util.Collections;
+import Zgenerics.test.Animal;
+import Zgenerics.test.Cachorro;
+import Zgenerics.test.Gato;
+
 import java.util.List;
 
 /**

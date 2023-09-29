@@ -1,4 +1,4 @@
-package Zgenerics;
+package Zgenerics.test;
 
 /**
  * @author mariana

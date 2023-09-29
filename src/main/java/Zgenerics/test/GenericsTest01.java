@@ -1,4 +1,4 @@
-package Zgenerics;
+package Zgenerics.test;
 
 import java.util.ArrayList;
 import java.util.List;

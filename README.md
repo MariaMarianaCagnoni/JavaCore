@@ -24,5 +24,10 @@
         <ol>.time</ol>
     </li>
     <li> Formatação</li>
+    <li>Regex</li>
+    <li>IO/NIO</li>
+    <li>Coleções</li>
+    <li>Generics</li>
+    <li>Classes internas</li>
 
 </ul>

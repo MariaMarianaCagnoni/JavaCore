@@ -2,6 +2,9 @@ package Zgenerics.test;
 
 import Zgenerics.domain.Barco;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author mariana
  * @Project: javacore
@@ -9,6 +12,13 @@ import Zgenerics.domain.Barco;
 public class MetodogenericoTest01 {
     public static void main(String[] args) {
 
+
+        imprimirListaGenerica(new List<);
+    }
+    private static <T> void imprimirListaGenerica(T t){
+
+        List<T> list =  List.of(t);
+        System.out.println(list);
 
     }
 }
@@ -49,3 +59,4 @@ class Generico<T,X,I>{
         this.t = t;
     }
 }
+

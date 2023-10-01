@@ -1,8 +1,5 @@
 package Zgenerics.service;
 
-import Zgenerics.domain.Carro;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**

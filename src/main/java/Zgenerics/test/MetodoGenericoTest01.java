@@ -1,29 +1,34 @@
 package Zgenerics.test;
 
 import Zgenerics.domain.Barco;
+import Zgenerics.domain.Carro;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author mariana
  * @Project: javacore
  */
-public class MetodogenericoTest01 {
+public class MetodoGenericoTest01 {
     public static void main(String[] args) {
 
 
-        imprimirListaGenerica(new List<);
+        imprimirListaGenerica(new Barco("bmw"));
     }
-    private static <T> void imprimirListaGenerica(T t){
 
-        List<T> list =  List.of(t);
+    private static <T> void imprimirListaGenerica(T t) {
+
+        List<T> list = List.of(t);
         System.out.println(list);
 
     }
+//    private static <T extends Comparable<T>> List<T> maiorValor(T t) {
+//
+//        return List.of(t);
+//    }
 }
 
-class Generico<T,X,I>{
+class Generico<T, X, I> {
 
     private X x;
     private I i;

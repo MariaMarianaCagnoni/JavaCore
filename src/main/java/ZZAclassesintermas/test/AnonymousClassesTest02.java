@@ -19,9 +19,7 @@ public class AnonymousClassesTest02 {
             @Override
             public int compare(Barco o1, Barco o2) {
                 return o1.getNome().compareTo(o2.getNome());
-
             }
-
         });
         System.out.println(listaDeBarcos);
     }

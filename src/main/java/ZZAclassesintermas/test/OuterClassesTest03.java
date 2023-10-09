@@ -16,7 +16,7 @@ private String name = "Mariana";
         }
     }
     public static void main(String[] args) {
-        Nested nested = new Nested();
+        Nested nested = new Nested(); //não precisa mais do objeto mais externo apara acessar uma classe estatica aninhada
         nested.print();
 
     }

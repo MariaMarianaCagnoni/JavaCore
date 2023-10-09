@@ -5,7 +5,7 @@ package ZZAclassesintermas.test;
  * @Project: javacore
  */
 public class OuterClassTest01 {
-
+//nested classes."Aninhadas"
     private String name = "goku";
 
     class InnerInside {

@@ -29,5 +29,7 @@
     <li>Coleções</li>
     <li>Generics</li>
     <li>Classes internas</li>
+    <li>Classes anônimas</li>
+    <li>Classes internas estáticas</li>
 
 </ul>

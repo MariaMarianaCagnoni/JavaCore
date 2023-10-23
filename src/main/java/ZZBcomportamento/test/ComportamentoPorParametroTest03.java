@@ -20,13 +20,14 @@ public class ComportamentoPorParametroTest03 {
 
 
         List<Car> cars2 = filter(listaDeCarros, car -> car.getColor().equals("red"));
+
         List<Car> cars = filter(listaDeCarros, car -> car.getName().equals("Mercedez"));
 
         System.out.println(cars2);
         System.out.println(cars);
 
-        List<Integer> listOfInteger = List.of(1,2,32,4,45);
-        System.out.println(filter(listOfInteger, numeros -> numeros%2==0));
+        List<Integer> listOfInteger = List.of(1, 2, 32, 4, 45);
+        System.out.println(filter(listOfInteger, numeros -> numeros % 2 == 0));
 
 
     }

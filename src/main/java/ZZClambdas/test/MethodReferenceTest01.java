@@ -1,7 +1,7 @@
 package ZZClambdas.test;
 
-import ZZClambdas.test.domain.Anime;
-import ZZClambdas.test.service.AnimeComparators;
+import ZZClambdas.domain.Anime;
+import ZZClambdas.service.AnimeComparators;
 
 import java.util.*;
 

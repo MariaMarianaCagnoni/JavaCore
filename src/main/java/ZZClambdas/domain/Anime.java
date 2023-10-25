@@ -1,4 +1,4 @@
-package ZZClambdas.test.domain;
+package ZZClambdas.domain;
 
 /**
  * @author mariana

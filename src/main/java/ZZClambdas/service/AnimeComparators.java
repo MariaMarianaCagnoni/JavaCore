@@ -1,6 +1,6 @@
-package ZZClambdas.test.service;
+package ZZClambdas.service;
 
-import ZZClambdas.test.domain.Anime;
+import ZZClambdas.domain.Anime;
 
 /**
  * @author mariana
@@ -12,6 +12,9 @@ public class AnimeComparators {
         return a1.getTitle().compareTo(a2.getTitle());
     }
     public static int compareByEpisodes(Anime a1, Anime a2) {
+        return Integer.compare(a1.getQuantity(), a2.getQuantity());
+    }
+    public  int compareByEpisodesNonStatic(Anime a1, Anime a2) {
         return Integer.compare(a1.getQuantity(), a2.getQuantity());
     }
 }

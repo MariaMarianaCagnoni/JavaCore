@@ -1,7 +1,5 @@
 package ZZDoptional.test;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.List;
 import java.util.Optional;
 
@@ -36,4 +34,6 @@ public class OptionalTest01 {
         }
         return null;
     }
+    //não usar Optional como variavel de classe ou como passagem de parametro em um método,sso pq o Optional não é serializavel.
+
 }

@@ -9,7 +9,6 @@ import java.util.*;
  * @Project: javacore
  */
 
-
 //Streams é uma forma de processar dados,só que de maneira funcional(declarativa)
 
 //Order LightNovel by title
@@ -29,14 +28,13 @@ public class StreamTest01 {
 
         lightNovels.sort(Comparator.comparing(LightNovels::getPrice));
         for (LightNovels lightNovel : lightNovels) {
-            if (lightNovel.getPrice() <= 4){
-                 titles.add(lightNovel.getTitle() + " " + lightNovel.getPrice());
+            if (lightNovel.getPrice() <= 4) {
+                titles.add(lightNovel.getTitle() + " " + lightNovel.getPrice());
             }
-            if(titles.size() >= 3){
+            if (titles.size() >= 3) {
                 break;
             }
         }
-
         System.out.println(lightNovels);
         System.out.println(titles);
     }

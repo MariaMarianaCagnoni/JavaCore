@@ -24,6 +24,20 @@ public class StreamsTest04 {
 
         System.out.println(flattenedList);
         //pega varias listas e add em uma só,sem precisar aninhar loops
+        System.out.println("-----------------------------------");
+
+        List<List<String>> nestedListStrings = new ArrayList<>();
+
+        List<String> devs = new ArrayList<>(List.of("Mariana","Luana","Jessica"));
+        List<String> designerGrafics = new ArrayList<>(List.of("Diogo","Rodolfo","Breno"));
+        List<String> ba = new ArrayList<>(List.of("Gustavo","Endrick","Joana"));
+
+        nestedListStrings.add(devs);
+        nestedListStrings.add(designerGrafics);
+        nestedListStrings.add(ba);
+
+        nestedListStrings.stream().flatMap(Collection::stream).forEach(System.out::println);
+
 
     }
 }

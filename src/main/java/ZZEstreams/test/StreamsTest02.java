@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * @author mariana
  * @Project: javacore
  */
-public class StreamTest02 {
+public class StreamsTest02 {
     private static List<LightNovels> lightNovels = new ArrayList<>(
             List.of(
                     new LightNovels("Sekai", 2.78),

@@ -14,7 +14,7 @@ import java.util.*;
 //Order LightNovel by title
 //retrieve the first 3 night novels with price less than 4
 
-public class StreamTest01 {
+public class StreamsTest01 {
     private static List<LightNovels> lightNovels = new ArrayList<>(
             List.of(
                     new LightNovels("Sekai", 2.78),

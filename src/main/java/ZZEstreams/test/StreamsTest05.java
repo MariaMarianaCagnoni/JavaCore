@@ -20,7 +20,7 @@ public class StreamsTest05 {
         }
         //sem usar streams
 
-        List<String> list = lettersSlice.stream()
+        List<String> list = lettersSlice.parallelStream()
                 .map(w -> w.split(""))
                 .flatMap(Arrays::stream)
                 .collect(Collectors.toList());

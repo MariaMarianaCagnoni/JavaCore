@@ -27,7 +27,7 @@ public class StreamsTest08 {
 
 
         double sum = lightNovels.stream()
-                .mapToDouble(LightNovels::getPrice)
+                .mapToDouble(LightNovels::getPrice) //mantem o valor primitivo
                 .filter(price -> price > 3)
                 .sum();
 

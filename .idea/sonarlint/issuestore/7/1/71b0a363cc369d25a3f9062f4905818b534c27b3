@@ -1,8 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ý¥ýà
-X
-java:S1854"BRemove this useless assignment to local variable "pastaDirectory".(¨­Ü¥
-I
-java:S1481"3Remove this unused "pastaDirectory" local variable.(¨­Ü¥
-?	java:S106"+Replace this use of System.out by a logger.(âÂ‰
-E	java:S106 "+Replace this use of System.out by a logger.(‚†¸´ùÿÿÿÿ

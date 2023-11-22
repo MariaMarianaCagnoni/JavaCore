@@ -10,10 +10,17 @@ public class LightNovels {
 
     private String Title;
     private double price;
+    private Category category;
 
     public LightNovels(String title, double price) {
         Title = title;
         this.price = price;
+    }
+
+    public LightNovels(String title, double price, Category category) {
+        Title = title;
+        this.price = price;
+        this.category = category;
     }
 
     @Override
@@ -37,12 +44,16 @@ public class LightNovels {
         return price;
     }
 
+    public Category getCategory() {
+        return category;
+    }
+
     @Override
     public String toString() {
         return "LightNovels{" +
                 "Title='" + Title + '\'' +
                 ", price=" + price +
+                ", category=" + category +
                 '}';
     }
-
 }

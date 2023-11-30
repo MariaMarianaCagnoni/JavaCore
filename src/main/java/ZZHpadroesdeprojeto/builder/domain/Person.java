@@ -1,4 +1,4 @@
-package ZZHpadroesdeprojeto.domain;
+package ZZHpadroesdeprojeto.builder.domain;
 
 /**
  * @author mariana
@@ -43,7 +43,7 @@ public class Person {
 
         }
 
-        public PersonBuilder lasttName(String lastName) {
+        public PersonBuilder lastName(String lastName) {
             this.lastName = lastName;
             return this;
         }

@@ -1,6 +1,6 @@
-package ZZHpadroesdeprojeto.test;
+package ZZHpadroesdeprojeto.builder.test;
 
-import ZZHpadroesdeprojeto.domain.Person;
+import ZZHpadroesdeprojeto.builder.domain.Person;
 
 /**
  * @author mariana
@@ -11,7 +11,7 @@ public class BuilderTest01 {
 
         Person personOne = new Person.PersonBuilder()
                 .firstName("Mariana")
-                .lasttName("ferreira")
+                .lastName("ferreira")
                 .email("teste@ghotmail.com")
                 .username("lisbeth salander")
                 .build();

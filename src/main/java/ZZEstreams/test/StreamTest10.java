@@ -1,5 +1,7 @@
 package ZZEstreams.test;
 
+import org.openjdk.jmh.annotations.Benchmark;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
@@ -12,6 +14,7 @@ import static java.lang.System.out;
  * @Project: javacore
  */
 public class StreamTest10 {
+
     public static void main(String[] args) {
         Stream.iterate(1, n -> n + 2)
                 .limit(100)

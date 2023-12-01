@@ -7,9 +7,9 @@ import java.util.stream.Stream;
  * @author mariana
  * @Project: javacore
  */
+
 public class StreamsTesteParallel {
     //thread = processamento paralelo
-
     public static void main(String[] args) {
         System.out.println(Runtime.getRuntime().availableProcessors()); //ver quantas threads tem
 
@@ -22,7 +22,8 @@ public class StreamsTesteParallel {
     }
 
 
-    private static void forSum(long num) {
+
+    public static void forSum(long num) {
         System.out.print("sum: ");
         long result = 0;
         long init = System.currentTimeMillis();

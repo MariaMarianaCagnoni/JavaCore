@@ -18,6 +18,8 @@ public final class AircraftSingletonLazy {
     }
 
 
+    /**
+    * Thread safe*/
     public static AircraftSingletonLazy getINSTANCE() {
         if (INSTANCE == null) {
             synchronized (AircraftSingletonLazy.class) {
@@ -37,7 +39,7 @@ public final class AircraftSingletonLazy {
         availableSeats.add("1C");
     }
 
-    public boolean seats(String seats) {
+    public synchronized boolean seats(String seats) {
         return availableSeats.remove(seats);
     }
 

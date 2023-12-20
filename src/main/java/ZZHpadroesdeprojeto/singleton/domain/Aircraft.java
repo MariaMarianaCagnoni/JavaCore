@@ -11,6 +11,10 @@ import java.util.Set;
 public final class Aircraft {
     private final Set<String> availableSeats = new HashSet<>();
 
+    public Set<String> getAvailableSeats() {
+        return availableSeats;
+    }
+
     {
         availableSeats.add("1A");
         availableSeats.add("1B");

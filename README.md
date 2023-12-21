@@ -31,5 +31,9 @@
     <li>Classes internas</li>
     <li>Classes anônimas</li>
     <li>Classes internas estáticas</li>
+    <li>Lambdas</li>
+    <li>Optional</li>
+    <li>Streams</li>
+    <li>Padrões de projetos</li>
 
 </ul>

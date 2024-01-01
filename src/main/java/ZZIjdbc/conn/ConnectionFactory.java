@@ -9,19 +9,10 @@ import java.sql.SQLException;
  * @Project: javacore
  */
 public class ConnectionFactory {
-
-
-    public static Connection getConnection() {
+    public static Connection getConnection() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/anime_store";
         String username = "root";
         String password = "root";
-        Connection connection;
-        try {
-            connection = DriverManager.getConnection(url, username, password);
-            System.out.println("Conectado com sucesso: " + connection);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-        return connection;
+        return DriverManager.getConnection(url, username, password);
     }
 }

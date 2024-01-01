@@ -1,6 +1,7 @@
 package ZZIjdbc.test;
 
-import ZZIjdbc.conn.ConnectionFactory;
+import ZZIjdbc.domain.Producer;
+import ZZIjdbc.repository.ProducerRepository;
 
 /**
  * @author mariana
@@ -8,6 +9,7 @@ import ZZIjdbc.conn.ConnectionFactory;
  */
 public class ConnectionFactoryTest01 {
     public static void main(String[] args) {
-        ConnectionFactory.getConnection();
+        Producer producer = Producer.builder().name("nhk").id(null).build();
+        ProducerRepository.save(producer);
     }
 }
